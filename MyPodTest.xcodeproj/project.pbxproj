@@ -15,6 +15,7 @@
 		9A5C65852106D78D00F7BB4F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A5C65842106D78D00F7BB4F /* main.m */; };
 		9A5C658F2106D78D00F7BB4F /* MyPodTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A5C658E2106D78D00F7BB4F /* MyPodTestTests.m */; };
 		9A5C659A2106D78D00F7BB4F /* MyPodTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A5C65992106D78D00F7BB4F /* MyPodTestUITests.m */; };
+		9A996E1F210700F000D848FF /* SZKCleanCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A996E1E210700EF00D848FF /* SZKCleanCache.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		9A5C65952106D78D00F7BB4F /* MyPodTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyPodTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A5C65992106D78D00F7BB4F /* MyPodTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyPodTestUITests.m; sourceTree = "<group>"; };
 		9A5C659B2106D78D00F7BB4F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9A996E1D210700EF00D848FF /* SZKCleanCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SZKCleanCache.h; sourceTree = "<group>"; };
+		9A996E1E210700EF00D848FF /* SZKCleanCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SZKCleanCache.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				9A5C65762106D78B00F7BB4F /* AppDelegate.m */,
 				9A5C65782106D78B00F7BB4F /* ViewController.h */,
 				9A5C65792106D78B00F7BB4F /* ViewController.m */,
+				9A996E1D210700EF00D848FF /* SZKCleanCache.h */,
+				9A996E1E210700EF00D848FF /* SZKCleanCache.m */,
 				9A5C657B2106D78B00F7BB4F /* Main.storyboard */,
 				9A5C657E2106D78D00F7BB4F /* Assets.xcassets */,
 				9A5C65802106D78D00F7BB4F /* LaunchScreen.storyboard */,
@@ -263,6 +268,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9A5C657A2106D78B00F7BB4F /* ViewController.m in Sources */,
+				9A996E1F210700F000D848FF /* SZKCleanCache.m in Sources */,
 				9A5C65852106D78D00F7BB4F /* main.m in Sources */,
 				9A5C65772106D78B00F7BB4F /* AppDelegate.m in Sources */,
 			);
